@@ -4,45 +4,45 @@
 
 Bienvenue dans cette simulation de trajectoires 3D.
 Ce programme vous permet de simuler une trajectoire 
-déterminée, ou bien plusieurs aléatoires. Entrée : fichier 
+dÃ©terminÃ©e, ou bien plusieurs alÃ©atoires. EntrÃ©e : fichier 
 texte "Choix_valeurs.txt", Sortie : figures de la trajectoire 
-et de l'empreinte de la particule de glace sphérique ou sous 
+et de l'empreinte de la particule de glace sphÃ©rique ou sous 
 forme de plaque plane. 
 
-Se conférer au mémoire de maîtrise de M.Kévin IGNATOWICZ
+Se confÃ©rer au mÃ©moire de maÃ®trise de M.KÃ©vin IGNATOWICZ
 "Simulation de trajectoires 3D de plaques planes avec
-introduction d’un modèle de moment dynamique" dans lequel 
+introduction dâ€™un modÃ¨le de moment dynamique" dans lequel 
 se trouvent des explications sur la physique de ce code de 
-calcul, les hypothèses simplificatrices, et d'autres 
-diverses précisions.
+calcul, les hypothÃ¨ses simplificatrices, et d'autres 
+diverses prÃ©cisions.
 
 ************************************************************
 
-Pour utiliser ce programme, vous aurez besoin du programme 
+Pour utiliser ce code de calcul, vous aurez besoin du programme 
 Matlab PROGRAMME_UTILISATEUR.m, ainsi que du document texte 
 Choix_valeurs.txt. 
 
-1ère étape : Ouvrir le document texte Choix_valeurs.txt et
+1Ã¨re Ã©tape : Ouvrir le document texte Choix_valeurs.txt et
 suivre les indications. Le remplissage de ce document, 
-permettra de choisir la géomètrie d'étude (plaque plane ou 
-sphère), la mèthode d'interpolation des vitesses, le choix 
-du modèle de moment (uniquement pour la plaque), diverses
-données géométriques et physiques, le temps de simulation, 
+permettra de choisir la gÃ©omÃ¨trie d'Ã©tude (plaque plane ou 
+sphÃ¨re), la mÃ¨thode d'interpolation des vitesses, le choix 
+du modÃ¨le de moment (uniquement pour la plaque), diverses
+donnÃ©es gÃ©omÃ©triques et physiques, le temps de simulation, 
 le pas de temps, l'abscisse du plan de visualisation des 
-traces, le nombre de trajectoires voulues (si vous désirez 
-plusieurs trajectoires, celles-ci seront générées
-aléatoirement), les conditions initiales (dans le cas d'une 
+traces, le nombre de trajectoires voulues (si vous dÃ©sirez 
+plusieurs trajectoires, celles-ci seront gÃ©nÃ©rÃ©es
+alÃ©atoirement), les conditions initiales (dans le cas d'une 
 unique trajectoire) 
 
-2ème étape : Lancer le programme Matlab PROGRAMME_UTILISATEUR.m
-Á noter que dans le cas d'un grand nombre de trajectoires 
+2Ã¨me Ã©tape : Lancer le programme Matlab PROGRAMME_UTILISATEUR.m
+Ã noter que dans le cas d'un grand nombre de trajectoires 
 (>100), l'execution du programme prend plusieurs heures.
 
 
-Note important : Afin de vérifier le bon fonctionnement du 
+Note important : Afin de vÃ©rifier le bon fonctionnement du 
 programme, deux cas tests sont disponibles, un pour la 
-plaque plane et un pour la sphère respectivement dans les 
-dossiers "Cas test plaque" et "Cas test sphère".
+plaque plane et un pour la sphÃ¨re respectivement dans les 
+dossiers "Cas test plaque" et "Cas test sphÃ¨re".
 
 
 
